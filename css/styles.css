@@ -24,21 +24,28 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-#profile-pic {
+.item1 {
+    display: flex;
     max-width: 60vw;
     align-self: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 p {
     font-size: 1.1em;
+    margin:auto;
 }
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     max-width: 70vh;
     font-size: 1.2em;
     line-height: 50px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
@@ -62,4 +69,33 @@ h2 {
 }
 footer {
     margin-top: 50px;
+}
+
+@media (min-width: 769px) {
+
+	.nav{
+		display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        margin-left: 15vw;
+        margin-right: 15vw;
+	}
+    .item1 {
+        order: 1;
+        max-width: 40vw;
+    }
+    .item2 {
+        margin-top: 50px;
+        flex-grow: 2;
+    }
+    .profile {
+        flex-direction: row;
+        margin: auto;
+    }
+    .references {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
