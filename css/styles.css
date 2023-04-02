@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    max-width: 90vw;
+    display:flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.references {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#profile-pic {
+    max-width: 60vw;
+    align-self: center;
+    margin-top: 50px;
+}
+p {
+    font-size: 1.1em;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70vh;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+}
+h2 {
+    font-size: 1.25em;
+}
+#contact {
+
+    margin-top: 100px;
+}
+.bottom-nav {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    border-top: solid 1px rgb(190, 190, 190);
+    padding-top: 0px;
+}
+footer {
+    margin-top: 50px;
+}
