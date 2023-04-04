@@ -143,8 +143,8 @@ footer {
 @media screen and (min-width: 1024px) {
     header {
         display: flex;
-        gap: 15vw;
         width: 90vw;
+        justify-content: space-between;
     }
     .main-nav {
         gap: 2em;
