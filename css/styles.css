@@ -143,7 +143,7 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
-        padding-right: -100px;
+        
     }
     .main-nav {
         gap: 2em;
