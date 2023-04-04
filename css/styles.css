@@ -150,7 +150,10 @@ footer {
         gap: 2em;
         font-size: 1.2em;
         padding-inline: 20px;
-        margin-inline: 200px;
+        justify-content: space-between;
+        display: inline-flex;
+        margin-right: 10vw;
+        
     }
     #profile-img {
         margin-right: 4vw;
