@@ -33,6 +33,7 @@ img {
     font-size: 1.5em;
     line-height: 2em;
     font-weight: 600;
+    gap: 1rem;
     
 }
 a {
@@ -142,12 +143,14 @@ footer {
 @media screen and (min-width: 1024px) {
     header {
         display: flex;
-        justify-content: space-between;
-        
+        gap: 15vw;
+        width: 90vw;
     }
     .main-nav {
         gap: 2em;
-        margin-right: 15vw;
+        font-size: 1.2em;
+        padding-inline: 20px;
+        margin-inline: 200px;
     }
     #profile-img {
         margin-right: 4vw;
@@ -171,7 +174,4 @@ footer {
     #portfolio {
         margin-bottom: 5vh;
     }
-   .main-nav {
-    font-size: 1.2em;
-   }
 }
