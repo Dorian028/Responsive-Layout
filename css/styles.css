@@ -69,6 +69,9 @@ footer {
 .contact {
     line-height: 3em;
 }
+.bottom-nav2 {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     .main-nav {
@@ -96,8 +99,22 @@ footer {
     }
     .portfolio-items {
         flex-direction: row;
-        max-width: 40vw;
         flex-wrap: wrap;
         flex: 1;
+    }
+    article {
+        max-width: 40vw;
+        align-content: space-between;
+        margin: auto;
+    }
+    footer {
+        margin-bottom: 80px;
+    }
+    #to-top {
+        display: none;
+    }
+    .bottom-nav2 {
+        display: flex;
+        gap: 1em;
     }
 }
